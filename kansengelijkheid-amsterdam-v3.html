@@ -232,7 +232,7 @@ section{scroll-margin-top:118px}
         </div>
         <div class="krow"><span class="k">Focusgebied</span><span class="v">Kansengelijkheid &amp; armoede</span></div>
         <div class="krow"><span class="k">Werkgebied</span><span class="v">Amsterdam</span></div>
-        <div class="krow"><span class="k">Aangesloten funders</span><span class="v">9 organisaties</span></div>
+        <div class="krow"><span class="k">Actieve funders</span><span class="v">13 organisaties</span></div>
         <div class="ic-stats">
           <div><b>10</b><span>geselecteerd</span></div>
           <div><b>3</b><span>zoeken funding</span></div>
@@ -275,7 +275,7 @@ section{scroll-margin-top:118px}
   </section>
 
   <section id="funders">
-    <div class="shead"><div><h2>De funders achter deze selectie</h2><p>Klik op een funder om te zien wat zij zoeken</p></div></div>
+    <div class="shead"><div><h2>De funders achter deze selectie</h2><p>Fondsen, bedrijven en gemeentelijke regelingen die bijdragen aan dit thema — klik om te zien wat zij zoeken</p></div></div>
     <div class="fgrid" id="fgrid"></div>
     <div class="fpanel" id="fpanel"></div>
   </section>
@@ -305,7 +305,7 @@ section{scroll-margin-top:118px}
 
   <div class="cta">
     <h2>Sluit je aan bij dit vraagstuk</h2>
-    <p>Negen funders werken hier al samen. Draag bij aan een bestaand initiatief of meld je aan als funder.</p>
+    <p>Dertien funders en gemeentelijke regelingen werken hier al samen. Draag bij aan een bestaand initiatief of meld je aan als funder.</p>
     <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
       <button class="btnp" onclick="demo()">Doe mee als funder</button>
       <button class="btno" onclick="demo()">Meer over het Verbond</button>
@@ -398,6 +398,18 @@ const CASUS_ITEMS=[
   d:"Zorgt met dans en muziek voor contact en beweging bij ouderen (55+).",m:"Zoekt € 40.000",seek:true}];
 
 const CASUS_FUNDERS=[
+ {n:"Gemeente Amsterdam — Subsidie Buurtbudgetten",kort:"GEM\nA'DAM",
+  d:"Bewoners beslissen in hun eigen wijk mee over de besteding. Voor initiatieven die de buurt prettiger, schoner of socialer maken.",
+  th:[T.msd],dg:[D.allen],ty:["Stichting","Vereniging","Buurtinitiatief","Particulier"],wg:["Amsterdam"],extra:"tot € 10.000 · per stadsdeel"},
+ {n:"Gemeente Amsterdam — Subsidie Aankomstinfrastructuur Nieuwkomers en Ondersteuning Ongedocumenteerden",kort:"GEM\nA'DAM",
+  d:"Voor organisaties die nieuwkomers en ongedocumenteerden in Amsterdam opvangen, begeleiden en op weg helpen.",
+  th:[T.msd],dg:[D.vlucht],ty:["Stichting","Vereniging"],wg:["Amsterdam"]},
+ {n:"Gemeente Amsterdam — Subsidie Basisvoorzieningen Sociale Basis",kort:"GEM\nA'DAM",
+  d:"Financiert het sociale fundament in de wijk: buurtkamers, informele zorg, ontmoeting en dagbesteding.",
+  th:[T.msd,T.zg],dg:[D.allen,D.sen],ty:["Stichting","Vereniging"],wg:["Amsterdam"],extra:"meerjarig"},
+ {n:"Gemeente Amsterdam — Subsidie Broedplaatsen",kort:"GEM\nA'DAM",
+  d:"Ondersteunt betaalbare werkruimte voor makers, kunstenaars en maatschappelijke initiatieven in de stad.",
+  th:[T.kc,T.msd],dg:[D.allen],ty:["Stichting","Vereniging","Coöperatie"],wg:["Amsterdam"]},
  {n:"Mensen Maken Amsterdam",kort:"MMA",url:"https://www.findnfund.com/funders/mensen-maken-amsterdam",
   d:"Overkoepelende stichting van de zeven Amsterdamse buurtfondsen. Steunt initiatieven die de buurt mooier, groener, veiliger, kleurrijker of schoner maken. Bewoners besluiten in buurtcomités samen welke projecten een bijdrage krijgen.",
   th:[T.msd,T.mnd],dg:[D.allen],ty:["Eenmanszaak (ZZP)","Particulier","Stichting","Vereniging"],
